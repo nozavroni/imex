@@ -7,16 +7,14 @@
  * @copyright Copyright (c) 2016 Luke Visinoni <luke.visinoni@gmail.com>
  * @author    Luke Visinoni <luke.visinoni@gmail.com>
  */
-namespace IMEXTest;
+namespace Nozavroni\IMEX\ImportBundle\Controller;
 
-use IMEX\IMEX;
-use PHPUnit_Framework_TestCase;
+use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 
-class IMEXTest extends PHPUnit_Framework_TestCase
+class DefaultController extends Controller
 {
-    public function testIMEXInstanceOfIMEX()
+    public function indexAction()
     {
-        $imex = new IMEX;
-        $this->assertInstanceOf(IMEX::class, $imex);
+        return $this->render('NozavroniIMEXImportBundle:Default:index.html.twig');
     }
 }

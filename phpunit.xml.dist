@@ -3,7 +3,7 @@
         xsi:noNamespaceSchemaLocation="http://schema.phpunit.de/4.5/phpunit.xsd"
         backupGlobals="true"
         backupStaticAttributes="false"
-        bootstrap="./tests/bootstrap.php"
+        bootstrap="./src/Nozavroni/IMEX/ImportBundle/tests/bootstrap.php"
         cacheTokens="false"
         colors="true"
         convertErrorsToExceptions="true"
@@ -24,7 +24,7 @@
         verbose="false">
     <testsuites>
         <testsuite name="IMEX Test Suite">
-            <directory>./tests/IMEX</directory>
+            <directory>./src/Nozavroni/IMEX/ImportBundle/tests</directory>
         </testsuite>
     </testsuites>
 </phpunit>

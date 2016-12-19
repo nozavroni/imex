@@ -7,12 +7,9 @@
  * @copyright Copyright (c) 2016 Luke Visinoni <luke.visinoni@gmail.com>
  * @author    Luke Visinoni <luke.visinoni@gmail.com>
  */
-require_once __DIR__ . '/../vendor/autoload.php';
+namespace Nozavroni\IMEX\ImportBundle\Importer;
 
-function dd($in, $exit = true)
+abstract class AbstractImporter
 {
-    var_dump($in);
-    if ($exit) {
-        exit;
-    }
+
 }

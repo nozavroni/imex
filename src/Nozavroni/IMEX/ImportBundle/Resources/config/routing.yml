@@ -1,0 +1,3 @@
+nozavroni_imex_import_homepage:
+    path:     /
+    defaults: { _controller: NozavroniIMEXImportBundle:Default:index }
