@@ -1,3 +1,7 @@
 #!/bin/bash
 
-vendor/bin/phpunit
+if [[ $TRAVIS_PHP_VERSION != "7.0" ]]; then
+  vendor/bin/phpunit --coverage-text --coverage-clover ./build/logs/clover.xml
+else
+  vendor/bin/phpunit
+fi
