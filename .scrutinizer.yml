@@ -1,4 +1,6 @@
-# tips hat to Pádraic Brady, Dave Marshall, Wouter, Graham Campbell for this
+build:
+    environment:
+        php: '5.6.9'
 filter:
     paths: [src/*]
     excluded_paths: [vendor/*]
