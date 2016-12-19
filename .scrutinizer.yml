@@ -4,7 +4,7 @@ build:
     tests:
         override:
             -
-                command: 'phpunit --coverage-clover=./build/logs/clover.xml'
+                command: 'phpunit -c phpunit.xml --coverage-clover=./build/logs/clover.xml'
                 coverage:
                     file: './build/logs/clover.xml'
                     format: 'clover'
@@ -13,6 +13,7 @@ filter:
     excluded_paths: [vendor/*]
 before_commands:
     - 'composer install --prefer-source'
+    - 'mv phpunit.xml.dist phpunit.xml'
 tools:
     external_code_coverage:
         timeout: 300
