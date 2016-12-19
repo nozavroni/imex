@@ -4,19 +4,18 @@
  * A set of components for writing import/export scripts.
  *
  * @version   {$VERSION}
+ *
  * @copyright Copyright (c) 2016 Luke Visinoni <luke.visinoni@gmail.com>
  * @author    Luke Visinoni <luke.visinoni@gmail.com>
  */
-namespace IMEXTest;
 
-use IMEX\IMEX;
+namespace Nozavroni\IMEX\ImportBundle\Test;
+
 use PHPUnit_Framework_TestCase;
 
-class IMEXTest extends PHPUnit_Framework_TestCase
+class NozavroniIMEXImportBundleTest extends PHPUnit_Framework_TestCase
 {
-    public function testIMEXInstanceOfIMEX()
+    public function testSomething()
     {
-        $imex = new IMEX;
-        $this->assertInstanceOf(IMEX::class, $imex);
     }
 }

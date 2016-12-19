@@ -3,7 +3,8 @@
     "description": "An import/export toolkit for Symfony and eZ Publish",
     "type": "library",
     "require": {
-        "nozavroni/csvelte": "dev-develop"
+        "nozavroni/csvelte": "dev-develop",
+        "symfony/symfony": "^3.2"
     },
     "require-dev": {
         "phpunit/phpunit": "^5.7"
@@ -21,9 +22,8 @@
         }
     ],
     "autoload": {
-        "psr-4": {
-            "IMEX\\": "src/IMEX",
-            "IMEXTest\\": "tests/IMEX"
-        }
+        "files": [
+            "./src/functions.php"
+        ]
     }
 }
