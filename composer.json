@@ -4,7 +4,8 @@
     "type": "library",
     "require": {
         "nozavroni/csvelte": "dev-develop",
-        "symfony/symfony": "^3.2"
+        "symfony/symfony": "^3.2",
+        "laravel/envoy": "^1.3"
     },
     "require-dev": {
         "phpunit/phpunit": "^5.7"
