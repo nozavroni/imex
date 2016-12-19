@@ -4,9 +4,11 @@
  * A set of components for writing import/export scripts.
  *
  * @version   {$VERSION}
+ *
  * @copyright Copyright (c) 2016 Luke Visinoni <luke.visinoni@gmail.com>
  * @author    Luke Visinoni <luke.visinoni@gmail.com>
  */
+
 namespace Nozavroni\IMEX\ImportBundle\Command;
 
 use Symfony\Bundle\FrameworkBundle\Command\ContainerAwareCommand;
@@ -44,9 +46,9 @@ class ImportCommand extends ContainerAwareCommand
      * @param InputInterface  $input  An InputInterface instance
      * @param OutputInterface $output An OutputInterface instance
      *
-     * @return null|int null or 0 if everything went fine, or an error code
-     *
      * @throws LogicException When this abstract method is not implemented
+     *
+     * @return null|int null or 0 if everything went fine, or an error code
      *
      * @see setCode()
      */

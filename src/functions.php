@@ -4,6 +4,7 @@
  * A set of components for writing import/export scripts.
  *
  * @version   {$VERSION}
+ *
  * @copyright Copyright (c) 2016 Luke Visinoni <luke.visinoni@gmail.com>
  * @author    Luke Visinoni <luke.visinoni@gmail.com>
  */
@@ -21,7 +22,7 @@ function is_cli()
 
 if (!function_exists('dd')) {
     /**
-     * Dump and Die
+     * Dump and Die.
      *
      * @param mixed $data The data to dump
      * @param bool  $exit Whether or not to die (exit) after dumping

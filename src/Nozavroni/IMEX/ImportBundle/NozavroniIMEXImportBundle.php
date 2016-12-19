@@ -4,17 +4,18 @@
  * A set of components for writing import/export scripts.
  *
  * @version   {$VERSION}
+ *
  * @copyright Copyright (c) 2016 Luke Visinoni <luke.visinoni@gmail.com>
  * @author    Luke Visinoni <luke.visinoni@gmail.com>
  */
+
 namespace Nozavroni\IMEX\ImportBundle;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
 /**
- * Class NozavroniIMEXImportBundle
- * @package Nozavroni\IMEX\ImportBundle
+ * Class NozavroniIMEXImportBundle.
  */
 class NozavroniIMEXImportBundle extends Bundle
 {
@@ -23,7 +24,6 @@ class NozavroniIMEXImportBundle extends Bundle
      */
     public function boot()
     {
-
     }
 
     /**
@@ -31,7 +31,6 @@ class NozavroniIMEXImportBundle extends Bundle
      */
     public function shutdown()
     {
-
     }
 
     /**
@@ -46,6 +45,5 @@ class NozavroniIMEXImportBundle extends Bundle
      */
     public function build(ContainerBuilder $container)
     {
-
     }
 }
